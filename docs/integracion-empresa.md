@@ -7,7 +7,7 @@ y CuadraYa. La versión 1.1.0 añade, sin romper el comportamiento original:
 |---|---|
 | Plugin de Claude Code (marketplace propio) | `.claude-plugin/marketplace.json`, `.claude-plugin/plugin.json` |
 | Brand packs y narración en otros idiomas (español de Cuba) | `skills/directing-stickman-videos/references/brand-and-language.md` |
-| Render local con HyperFrames cuando el modelo de vídeo no está disponible (Gemini no opera en Cuba) | `skills/directing-stickman-videos/references/local-render-hyperframes.md` |
+| Render local con HyperFrames cuando no se quiere gastar créditos del modelo de vídeo o no hay acceso | `skills/directing-stickman-videos/references/local-render-hyperframes.md` |
 | Escenario de evaluación | `tests/scenarios/language-and-brand.md` |
 
 ## Instalar
