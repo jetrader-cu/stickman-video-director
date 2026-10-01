@@ -1,0 +1,7 @@
+{
+  "name": "stickman-video-director",
+  "description": "Turn copy into a one-minute stickman video plan: director's proposal, six standalone video-model prompts, optional brand packs, non-English narration and local HyperFrames render.",
+  "version": "1.1.0",
+  "license": "MIT",
+  "skills": "./skills/"
+}
