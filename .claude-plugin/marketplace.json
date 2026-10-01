@@ -1,0 +1,12 @@
+{
+  "name": "stickman-video-director",
+  "owner": { "name": "jetrader-cu" },
+  "plugins": [
+    {
+      "name": "stickman-video-director",
+      "source": "./",
+      "description": "Stickman video director skill with brand packs, Spanish narration and local HyperFrames render.",
+      "version": "1.1.0"
+    }
+  ]
+}

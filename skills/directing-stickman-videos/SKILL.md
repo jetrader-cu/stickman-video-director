@@ -31,9 +31,20 @@ Urgency, generation cost, client pressure, and requests to "pick normal settings
 
 Topic approval, schedule pressure, or approval of an older draft is not approval of the current Phase A.
 
+## Brand packs and narration language
+
+English narration and the generic light/dark system stay the default. Two optional inputs change them, and only when the user (or a calling skill) supplies them explicitly:
+
+- **Narration language**: if a language other than English is requested (for example Cuban Spanish), read `references/brand-and-language.md` and follow its word budget and dialogue rules.
+- **Brand pack**: if a brand pack is supplied (a JSON such as `ai-swarm/brands/<slug>.json`), read `references/brand-and-language.md` and apply its theme, three accent colors (descriptive words only), tone, signature, and claims to avoid.
+
+When neither is supplied, ignore that reference. A brand pack's theme satisfies the theme item of the setup gate only when the user confirms it.
+
+If the chosen video model is unavailable to the user (for example Gemini in their region), read `references/local-render-hyperframes.md` and deliver the local HyperFrames render plan instead of, or in addition to, the model prompts.
+
 ## Output rules
 
-- Target 130–150 English VO words across six clips.
+- Target 130–150 English VO words across six clips (see `references/brand-and-language.md` for other languages).
 - Give each clip three timed beats, at least four relevant visual devices, and a visual change every two to three seconds.
 - Keep character proportions, line weight, theme, and narrator consistent.
 - Limit the video to three saturated accent colors. Name them only with ordinary descriptive words such as vivid red, electric blue, or warm gold.
